@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "711606849970",
+    "firebase_url": "https://eperpus-6464d-default-rtdb.firebaseio.com",
+    "project_id": "eperpus-6464d",
+    "storage_bucket": "eperpus-6464d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711606849970:android:ab5f9e2b14aba1ef6294ab",
+        "android_client_info": {
+          "package_name": "com.example.eperpus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "711606849970-tf1g2m7dg1cqnu5l79fk26mdba12d3bk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMKBOEjrjQwaHdvK3vC2ihZ7t7oY8aokM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "711606849970-tf1g2m7dg1cqnu5l79fk26mdba12d3bk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
