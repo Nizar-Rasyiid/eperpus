@@ -1,0 +1,19 @@
+import 'package:eperpus/services/services.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:device_apps/device_apps.dart';
+import 'package:eperpus/models/models.dart';
+import 'package:flutter_svg/svg.dart';
+import 'package:eperpus/shared/shared.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:carousel_pro/carousel_pro.dart';
+import 'package:provider/provider.dart';
+import 'package:simple_animations/simple_animations.dart';
+
+part 'wrapper.dart';
+part 'animation.dart';
+part 'form.dart';
+part 'sign_in_page.dart';
+part 'main_page.dart';

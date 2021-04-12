@@ -33,8 +33,28 @@ class AuthServices{
       return SignInSignUpResult(message: e.toString().split(',')[1]);
     }
   }
-}
+  static Future<SignInSignUpResult> signIn(String email, String password) async{
+    try {
+      AuthResult result = await _auth.signInWithEmailAndPassword(email: email, password:password);
 
+       User user = await result.user.fromFireStore();
+
+
+      return SignInSignUpResult(user: user);
+    } catch (e) {
+      return SignInSignUpResult(message: e.toString().split(',')[1]);
+    }
+
+  }
+  static Future<void> signOut() async{
+    await _auth.signOut();
+  }
+
+  static Stream<FirebaseUser> get userStream => _auth.onAuthStateChanged;
+  static Future<void> resetPassword(String email) async {
+    await _auth.sendPasswordResetEmail(email: email);
+  }
+}
 
 class SignInSignUpResult {
   final User user;
